@@ -1,4 +1,4 @@
-# VeryFit / IDW `.iwf` Watch Face Format — Reverse-Engineering Specification
+# VeryFit `.iwf` Watch Face Format — Reverse-Engineering Specification
 
 Derived from binary analysis of `f283.iwf` (246,758 bytes) and cross-referenced
 against strings/function names recovered from
