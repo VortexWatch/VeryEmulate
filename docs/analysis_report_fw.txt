@@ -8,6 +8,3 @@ Detected as ZIP archive: False
 --- Signature scan (top-level) ---
   IWF container magic: 3 hit(s) at offsets [489358, 1072192, 1615869]
   JPEG: 4 hit(s) at offsets [1364637, 1366249, 1366507, 1372581]
-
---- Text/JSON block scan ---
-
