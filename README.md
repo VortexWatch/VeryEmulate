@@ -327,3 +327,8 @@ must degrade gracefully rather than crash when it encounters them:
   anything about a compression flag beyond that.
 - The precise conditions under which FASTLZ/LZ4 compression is applied to
   an individual asset (see §4.2) — not encountered in this sample set.
+
+---
+
+## 9. Special Thanks
+Special Thanks to sptech38 (https://xdaforums.com/m/sptech38.13186981/) for analyzing the .iwf format on/for his tool `CadranEditor`. Otherwise, this python tool would not exist.
