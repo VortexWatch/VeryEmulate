@@ -1,0 +1,121 @@
+=== Analysis report for /mnt/user-data/uploads/f283.iwf ===
+File size: 246758 bytes
+First 16 bytes: 69776600010019006977662e6a736f6e
+
+Detected as IWF container: True
+Detected as ZIP archive: False
+
+--- Signature scan (top-level) ---
+  IWF container magic: 1 hit(s) at offsets [0]
+  RAW proprietary image (IDW/VeryFit RGB565 codec): 23 hit(s) at offsets [2042, 10643, 78867, 89043, 98024, 234360, 234726, 235092, 235388, 235754] (+13 more)
+
+--- IWF container structure ---
+Magic: b'iwf\x00'
+Version: 1
+Entry count: 25
+Header size: 8 bytes
+Table-of-contents entry size: 40 bytes (32-byte null-padded name + u32 LE offset + u32 LE size)
+Table ends at offset 1008 (matches first blob offset: True)
+
+--- Entries ---
+  iwf.json             off=    1008 size=     944  JSON
+  font.json            off=    1952 size=      90  JSON
+  h.png                off=    2042 size=    8601  RAW image [34x101, alpha=yes, rgb_bytes=6868, alpha_bytes=1717]
+  preview.png          off=   10643 size=   68224  RAW image [174x196, alpha=no, rgb_bytes=68208, alpha_bytes=0]
+  m.png                off=   78867 size=   10176  RAW image [32x127, alpha=yes, rgb_bytes=8128, alpha_bytes=2032]
+  ss.png               off=   89043 size=    8981  RAW image [22x163, alpha=yes, rgb_bytes=7172, alpha_bytes=1793]
+  files27.png          off=   98024 size=  136336  RAW image [240x284, alpha=no, rgb_bytes=136320, alpha_bytes=0]
+  g282_8               off=  234360 size=     366  RAW image [10x14, alpha=yes, rgb_bytes=280, alpha_bytes=70]
+  g282_9               off=  234726 size=     366  RAW image [10x14, alpha=yes, rgb_bytes=280, alpha_bytes=70]
+  g282_10              off=  235092 size=     296  RAW image [8x14, alpha=yes, rgb_bytes=224, alpha_bytes=56]
+  g282_4               off=  235388 size=     366  RAW image [10x14, alpha=yes, rgb_bytes=280, alpha_bytes=70]
+  g282_5               off=  235754 size=     366  RAW image [10x14, alpha=yes, rgb_bytes=280, alpha_bytes=70]
+  g282_7               off=  236120 size=     366  RAW image [10x14, alpha=yes, rgb_bytes=280, alpha_bytes=70]
+  g282_6               off=  236486 size=     366  RAW image [10x14, alpha=yes, rgb_bytes=280, alpha_bytes=70]
+  g282_2               off=  236852 size=     366  RAW image [10x14, alpha=yes, rgb_bytes=280, alpha_bytes=70]
+  g282_3               off=  237218 size=     366  RAW image [10x14, alpha=yes, rgb_bytes=280, alpha_bytes=70]
+  g282_1               off=  237584 size=     366  RAW image [10x14, alpha=yes, rgb_bytes=280, alpha_bytes=70]
+  g282_0               off=  237950 size=     366  RAW image [10x14, alpha=yes, rgb_bytes=280, alpha_bytes=70]
+  week_en_thur         off=  238316 size=    1206  RAW image [34x14, alpha=yes, rgb_bytes=952, alpha_bytes=238]
+  week_en_sun          off=  239522 size=    1206  RAW image [34x14, alpha=yes, rgb_bytes=952, alpha_bytes=238]
+  week_en_wed          off=  240728 size=    1206  RAW image [34x14, alpha=yes, rgb_bytes=952, alpha_bytes=238]
+  week_en_fri          off=  241934 size=    1206  RAW image [34x14, alpha=yes, rgb_bytes=952, alpha_bytes=238]
+  week_en_tue          off=  243140 size=    1206  RAW image [34x14, alpha=yes, rgb_bytes=952, alpha_bytes=238]
+  week_en_mon          off=  244346 size=    1206  RAW image [34x14, alpha=yes, rgb_bytes=952, alpha_bytes=238]
+  week_en_sat          off=  245552 size=    1206  RAW image [34x14, alpha=yes, rgb_bytes=952, alpha_bytes=238]
+
+--- iwf.json (layout/metadata) ---
+{
+  "version": 1,
+  "clouddialversion": 3,
+  "preview": "preview.png",
+  "name": "f283",
+  "author": "魏丹娜",
+  "description": "IDW13",
+  "deviceId": "IDW13",
+  "bluetooth": false,
+  "disturb": false,
+  "battery": false,
+  "compress": "LZ4",
+  "environment": "Production",
+  "item": [
+    {
+      "widget": "custom",
+      "type": "date",
+      "x": 96,
+      "y": 50,
+      "w": 48,
+      "h": 14,
+      "fgcolor": "0xFFFFFFFF",
+      "fgrender": "0xFFFFFFFF",
+      "align": "left",
+      "style": 1,
+      "font": "g282",
+      "fontnum": 11
+    },
+    {
+      "widget": "custom",
+      "type": "week",
+      "x": 103,
+      "y": 199,
+      "w": 34,
+      "h": 14,
+      "fgcolor": "0xFFFFFFFF",
+      "fgrender": "0xFFFFFFFF",
+      "align": "left",
+      "style": 0,
+      "font": "week",
+      "fontnum": 7
+    },
+    {
+      "widget": "watch",
+      "type": "time",
+      "x": 0,
+      "y": 0,
+      "w": 240,
+      "h": 284,
+      "stepless_rotation": 0,
+      "second": "ss.png",
+      "fgcolor": "0xFFFFFFFF",
+      "seccenterx": 11,
+      "seccentery": 127,
+      "secanchorx": 120,
+      "secanchory": 142,
+      "minute": "m.png",
+      "mincenterx": 16,
+      "mincentery": 92,
+      "minanchorx": 120,
+      "minanchory": 142,
+      "hour": "h.png",
+      "hourcenterx": 17,
+      "hourcentery": 67,
+      "houranchorx": 120,
+      "houranchory": 142
+    }
+  ],
+  "bkground": "files27.png"
+}
+
+--- font.json ---
+{"item":[{"name":"g282","bpp":16,"format":"png"},{"name":"week","bpp":16,"format":"png"}]}
+

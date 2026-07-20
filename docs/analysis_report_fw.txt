@@ -1,0 +1,13 @@
+=== Analysis report for /mnt/user-data/uploads/idw26_ota_V1_00_14_20260211.fw ===
+File size: 1720872 bytes
+First 16 bytes: 20421a002a47b7a800220001e9810410
+
+Detected as IWF container: False
+Detected as ZIP archive: False
+
+--- Signature scan (top-level) ---
+  IWF container magic: 3 hit(s) at offsets [489358, 1072192, 1615869]
+  JPEG: 4 hit(s) at offsets [1364637, 1366249, 1366507, 1372581]
+
+--- Text/JSON block scan ---
+
